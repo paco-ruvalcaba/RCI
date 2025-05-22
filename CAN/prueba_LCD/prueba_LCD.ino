@@ -8,7 +8,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
 //Se inicializa el LCD
-lcd.begin(); //Si marca error intenta con lcd.init();
+lcd.init(); //Si marca error intenta con lcd.init();
 lcd.backlight();
 }
 //Lógica principal. Se ejecuta una y otra vez. Se define la función que ejecutará la LCD en este caso
