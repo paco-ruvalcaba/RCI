@@ -22,11 +22,21 @@ Filas:    0  # # # # # # # # # # # # # # # #
           1  # # # # # # # # # # # # # # # #
              ------------------------------- */
 
-lcd.setCursor(8, 0);
+lcd.setCursor(0, 0);
 //Mensaje a mostrar
-lcd.print("UNIT");
-lcd.setCursor(2, 1);
-lcd.print("ELECTRONICS");
+lcd.print("Paco Elias");
+lcd.setCursor(0, 1);
+lcd.print("Ruvalcaba Reyes");
+
+  for (int scrollCounter = 0; scrollCounter < 39; scrollCounter++) 
+  { 
+
+    lcd.scrollDisplayLeft(); 
+
+    delay(250);
+  }
+
+  lcd.clear();
 }
 /* Como se verá el mensaje en el display 
 Columnas:     0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
