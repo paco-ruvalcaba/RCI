@@ -22,7 +22,7 @@ Filas:    0  # # # # # # # # # # # # # # # #
           1  # # # # # # # # # # # # # # # #
              ------------------------------- */
 
-lcd.setCursor(6, 0);
+lcd.setCursor(8, 0);
 //Mensaje a mostrar
 lcd.print("UNIT");
 lcd.setCursor(2, 1);
